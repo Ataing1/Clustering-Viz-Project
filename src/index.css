@@ -1,0 +1,52 @@
+@import url("~vis-network/dist/dist/vis-network.min.css");
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+/* CSS */
+
+.sidebar {
+  height: 1100px;
+  width: 300px;
+  padding: 0 20px 0 20px;
+  background-color: lightblue;
+  display: inline-block;
+
+  float:left;
+}
+
+.sidebar div {
+  padding: 8px;
+  font-size: 24px;
+  display: block;
+}
+
+#side-bar-info{
+  text-align: left;
+}
+
+#cluster-sidebar-wrapper{
+  display: flex;
+  margin: auto;
+}
+
+#cluster-style{
+  float:left;
+  height: 1100px;
+  width: 1100px;
+  max-width: 100%;
+  min-height: 30%;
+  overflow: visible;
+  display: inline-block;
+}
